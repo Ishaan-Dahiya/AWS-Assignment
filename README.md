@@ -35,25 +35,25 @@ We conducted an in-depth exploratory analysis to understand the relationships be
 ### 4.4 Feature Importance Analysis
 We analyzed the importance of features using various models. Below are the feature importance charts for each model:
 - **Feature Importance - Bagging Classifier**:
-  ![Feature Importance - Bagging](images/feature_importance_bagging_base_estimator.png)
+  ![Feature Importance - Bagging](Images/featureimportancebaggingbaseestimator.png)
 
 - **Feature Importance - Decision Tree**:
-  ![Feature Importance - Decision Tree](images/feature_importance_decision_tree.png)
+  ![Feature Importance - Decision Tree](Images/featureimportancedecisiontree.png)
 
 - **Feature Importance - Gradient Boosting**:
-  ![Feature Importance - Gradient Boosting](images/feature_importance_gradient_boosting.png)
+  ![Feature Importance - Gradient Boosting](Images/featureimportancegradientboosting.png)
 
 - **Feature Importance - Random Forest**:
-  ![Feature Importance - Random Forest](images/feature_importance_random_forest.png)
+  ![Feature Importance - Random Forest](Images/featureimportancerandomforest.png)
 
 ### 4.5 Model Evaluation
 The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Root Mean Squared Error (RMSE). The following graphs show the performance of the models:
 
 - **MAPE Comparison for All Models**:
-  ![MAPE Comparison](images/mape_comparrison_for_all_models.png)
+  ![MAPE Comparison](Images/mapecomparrisonforallmodels.png)
 
 - **RMSE Comparison for All Models**:
-  ![RMSE Comparison](images/rmse_comparrison_for_all_models.png)
+  ![RMSE Comparison](Images/rmsecomparrisonforallmodels.png)
 
 ## 5. Tools and Technologies
 - **Programming Languages**: Python (Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn)
@@ -63,11 +63,6 @@ The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Roo
 ## 6. Results and Key Insights
 - Random Forest and Bagging models outperformed the others, achieving the lowest error rates.
 - Feature importance analysis highlighted **prothrombin time** and **age** as key predictors.
-
-## 7. Deliverables
-- **Code**: Available in the `notebooks` folder.
-- **Report**: [Liver Cirrhosis Analysis Report](report.pdf)
-- **Presentation**: A summary of key findings in the `presentation` folder.
 
 ## 8. Conclusion
 The project demonstrates how machine learning can be used to predict liver cirrhosis stages accurately. By utilizing Random Forest and Bagging models, we achieved high accuracy, making this methodology applicable in clinical diagnostics.
