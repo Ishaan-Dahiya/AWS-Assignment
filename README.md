@@ -65,7 +65,7 @@ The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Roo
 - Feature importance analysis highlighted **prothrombin time** and **age** as key predictors.
 
 ## 7. Code Link: 
-![Collaborate on Google Docs](https://colab.research.google.com/drive/1xS2zanCrZIFQozuomvjAZxVGZdUM0Okb?usp=sharing)
+[Collaborate on Google Docs](https://colab.research.google.com/drive/1xS2zanCrZIFQozuomvjAZxVGZdUM0Okb?usp=sharing)
 
 
 ## 8. Conclusion
