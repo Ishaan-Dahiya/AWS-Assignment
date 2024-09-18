@@ -64,6 +64,10 @@ The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Roo
 - Random Forest and Bagging models outperformed the others, achieving the lowest error rates.
 - Feature importance analysis highlighted **prothrombin time** and **age** as key predictors.
 
+## 7. Code Link: 
+![Collaborate on Google Docs](https://colab.research.google.com/drive/1xS2zanCrZIFQozuomvjAZxVGZdUM0Okb?usp=sharing)
+
+
 ## 8. Conclusion
 The project demonstrates how machine learning can be used to predict liver cirrhosis stages accurately. By utilizing Random Forest and Bagging models, we achieved high accuracy, making this methodology applicable in clinical diagnostics.
 
