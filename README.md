@@ -24,37 +24,46 @@ The dataset was obtained from [Kaggle Liver Cirrhosis Stage Classification](http
 ### 4.2 Exploratory Data Analysis
 We conducted an in-depth exploratory analysis to understand the relationships between the variables.
 - **Heatmap of Correlations**: 
-  ![Heatmap of Correlations](images/heatmap.png)
+  ![Correlation Heatmap](images/coorelation_heatmap.png)
 
-- **Age Distribution**: 
-  ![Age Distribution](images/age_distribution.png)
+- **Histograms of Dataset Variables**: 
+  ![Histograms](images/grapghs.png)
 
 ### 4.3 Model Building
 - Implemented multiple models: Decision Trees, Random Forest, SVM, Bagging, and Gradient Boosting.
 - Hyperparameter tuning was performed using `GridSearchCV` and `RandomizedSearchCV` to optimize each model's performance.
 
-### 4.4 Model Evaluation
-The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Root Mean Squared Error (RMSE). The following table summarizes the performance of the models:
+### 4.4 Feature Importance Analysis
+We analyzed the importance of features using various models. Below are the feature importance charts for each model:
+- **Feature Importance - Bagging Classifier**:
+  ![Feature Importance - Bagging](images/feature_importance_bagging_base_estimator.png)
 
-| Model              | MAPE  | RMSE  |
-|--------------------|-------|-------|
-| Random Forest      | 0.042 | 0.291 |
-| Bagging            | 0.048 | 0.314 |
-| Decision Tree      | 0.069 | 0.393 |
-| Gradient Boosting  | 0.128 | 0.507 |
-| SVM (RBF)          | 0.431 | 1.040 |
+- **Feature Importance - Decision Tree**:
+  ![Feature Importance - Decision Tree](images/feature_importance_decision_tree.png)
+
+- **Feature Importance - Gradient Boosting**:
+  ![Feature Importance - Gradient Boosting](images/feature_importance_gradient_boosting.png)
+
+- **Feature Importance - Random Forest**:
+  ![Feature Importance - Random Forest](images/feature_importance_random_forest.png)
+
+### 4.5 Model Evaluation
+The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Root Mean Squared Error (RMSE). The following graphs show the performance of the models:
+
+- **MAPE Comparison for All Models**:
+  ![MAPE Comparison](images/mape_comparrison_for_all_models.png)
+
+- **RMSE Comparison for All Models**:
+  ![RMSE Comparison](images/rmse_comparrison_for_all_models.png)
 
 ## 5. Tools and Technologies
-- **Python**: Used for data manipulation, analysis, and modeling.
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
-- **Jupyter Notebook**: For interactive coding and data exploration.
+- **Programming Languages**: Python (Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn)
+- **IDE**: Jupyter Notebook
+- **Data Source**: Kaggle Liver Cirrhosis Stage Classification Dataset
 
 ## 6. Results and Key Insights
 - Random Forest and Bagging models outperformed the others, achieving the lowest error rates.
 - Feature importance analysis highlighted **prothrombin time** and **age** as key predictors.
-- Below is a **Feature Importance Plot** for the Random Forest model:
-  
-  ![Feature Importance](images/feature_importance.png)
 
 ## 7. Deliverables
 - **Code**: Available in the `notebooks` folder.
@@ -64,8 +73,3 @@ The models were evaluated based on Mean Absolute Percentage Error (MAPE) and Roo
 ## 8. Conclusion
 The project demonstrates how machine learning can be used to predict liver cirrhosis stages accurately. By utilizing Random Forest and Bagging models, we achieved high accuracy, making this methodology applicable in clinical diagnostics.
 
-## 9. How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/liver-cirrhosis-staging.git
