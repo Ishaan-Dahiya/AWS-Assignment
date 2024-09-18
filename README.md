@@ -24,7 +24,7 @@ The dataset was obtained from [Kaggle Liver Cirrhosis Stage Classification](http
 ### 4.2 Exploratory Data Analysis
 We conducted an in-depth exploratory analysis to understand the relationships between the variables.
 - **Heatmap of Correlations**: 
-  ![Correlation Heatmap](Images/coorelation_heatmap.png)
+  ![Correlation Heatmap](Images/coorelationheatmap.png)
 - **Histograms of Dataset Variables**: 
   ![Histograms](Images/grapghs.png)
 
