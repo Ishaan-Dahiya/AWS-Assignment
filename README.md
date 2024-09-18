@@ -24,10 +24,10 @@ The dataset was obtained from [Kaggle Liver Cirrhosis Stage Classification](http
 ### 4.2 Exploratory Data Analysis
 We conducted an in-depth exploratory analysis to understand the relationships between the variables.
 - **Heatmap of Correlations**: 
-  ![Correlation Heatmap](images/coorelation_heatmap.png)
+  ![Correlation Heatmap](Images/coorelation heatmap.png)
 
 - **Histograms of Dataset Variables**: 
-  ![Histograms](images/grapghs.png)
+  ![Histograms](Images/grapghs.png)
 
 ### 4.3 Model Building
 - Implemented multiple models: Decision Trees, Random Forest, SVM, Bagging, and Gradient Boosting.
